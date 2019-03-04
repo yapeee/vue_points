@@ -1,0 +1,327 @@
+{
+  "data": {
+    "03-01": [
+      {
+        "detailTradeSourceReportList": [
+          {
+            "incomeFee": 194756.48,
+            "tradePlatform": "ALIPAY",
+            "tradeSourceCode": "80024",
+            "tradeSourceName": "收入1",
+            "viewDate": "03-01"
+          },
+          {
+            "incomeFee": 45450.18,
+            "tradePlatform": "ALIPAY",
+            "tradeSourceCode": "80021",
+            "tradeSourceName": "收入2",
+            "viewDate": "03-01"
+          },
+          {
+            "incomeFee": 0,
+            "tradePlatform": "ALIPAY",
+            "tradeSourceCode": "80035",
+            "tradeSourceName": "收入3",
+            "viewDate": "03-01"
+          },
+          {
+            "incomeFee": 205698.06,
+            "tradePlatform": "ALIPAY",
+            "tradeSourceCode": "80037",
+            "tradeSourceName": "收入4",
+            "viewDate": "03-01"
+          },
+          {
+            "incomeFee": 19,
+            "tradePlatform": "ALIPAY",
+            "tradeSourceCode": "80038",
+            "tradeSourceName": "收入5",
+            "viewDate": "03-01"
+          },
+          {
+            "incomeFee": 0,
+            "tradePlatform": "ALIPAY",
+            "tradeSourceCode": "80039",
+            "tradeSourceName": "收入6",
+            "viewDate": "03-01"
+          }
+        ],
+        "incomeFee": 445923.72,
+        "tradePlatform": "ALIPAY",
+        "viewDate": "03-01"
+      },
+      {
+        "detailTradeSourceReportList": [
+          {
+            "incomeFee": 4663.12,
+            "tradePlatform": "WECHAT",
+            "tradeSourceCode": "80024",
+            "tradeSourceName": "收入1",
+            "viewDate": "03-01"
+          },
+          {
+            "incomeFee": 10270.8,
+            "tradePlatform": "WECHAT",
+            "tradeSourceCode": "80021",
+            "tradeSourceName": "收入2",
+            "viewDate": "03-01"
+          },
+          {
+            "incomeFee": 0,
+            "tradePlatform": "WECHAT",
+            "tradeSourceCode": "80035",
+            "tradeSourceName": "收入3",
+            "viewDate": "03-01"
+          },
+          {
+            "incomeFee": 26805.79,
+            "tradePlatform": "WECHAT",
+            "tradeSourceCode": "80037",
+            "tradeSourceName": "收入4",
+            "viewDate": "03-01"
+          },
+          {
+            "incomeFee": 17,
+            "tradePlatform": "WECHAT",
+            "tradeSourceCode": "80038",
+            "tradeSourceName": "收入5",
+            "viewDate": "03-01"
+          },
+          {
+            "incomeFee": 0,
+            "tradePlatform": "WECHAT",
+            "tradeSourceCode": "80039",
+            "tradeSourceName": "收入6",
+            "viewDate": "03-01"
+          },
+          {
+            "incomeFee": 746.78,
+            "tradePlatform": "WECHAT",
+            "tradeSourceCode": "80029",
+            "tradeSourceName": "收入7",
+            "viewDate": "03-01"
+          }
+        ],
+        "incomeFee": 42503.49,
+        "tradePlatform": "WECHAT",
+        "viewDate": "03-01"
+      }
+    ],
+    "03-02": [
+      {
+        "detailTradeSourceReportList": [
+          {
+            "incomeFee": 21003.68,
+            "tradePlatform": "ALIPAY",
+            "tradeSourceCode": "80024",
+            "tradeSourceName": "收入1",
+            "viewDate": "03-02"
+          },
+          {
+            "incomeFee": 52576.87,
+            "tradePlatform": "ALIPAY",
+            "tradeSourceCode": "80021",
+            "tradeSourceName": "收入2",
+            "viewDate": "03-02"
+          },
+          {
+            "incomeFee": 0,
+            "tradePlatform": "ALIPAY",
+            "tradeSourceCode": "80035",
+            "tradeSourceName": "收入3",
+            "viewDate": "03-02"
+          },
+          {
+            "incomeFee": 84341.56,
+            "tradePlatform": "ALIPAY",
+            "tradeSourceCode": "80037",
+            "tradeSourceName": "收入4",
+            "viewDate": "03-02"
+          },
+          {
+            "incomeFee": 33,
+            "tradePlatform": "ALIPAY",
+            "tradeSourceCode": "80038",
+            "tradeSourceName": "收入5",
+            "viewDate": "03-02"
+          },
+          {
+            "incomeFee": 0,
+            "tradePlatform": "ALIPAY",
+            "tradeSourceCode": "80039",
+            "tradeSourceName": "收入6",
+            "viewDate": "03-02"
+          }
+        ],
+        "incomeFee": 157955.11,
+        "tradePlatform": "ALIPAY",
+        "viewDate": "03-02"
+      },
+      {
+        "detailTradeSourceReportList": [
+          {
+            "incomeFee": 2591.71,
+            "tradePlatform": "WECHAT",
+            "tradeSourceCode": "80024",
+            "tradeSourceName": "收入1",
+            "viewDate": "03-02"
+          },
+          {
+            "incomeFee": 10936.86,
+            "tradePlatform": "WECHAT",
+            "tradeSourceCode": "80021",
+            "tradeSourceName": "收入2",
+            "viewDate": "03-02"
+          },
+          {
+            "incomeFee": 0,
+            "tradePlatform": "WECHAT",
+            "tradeSourceCode": "80035",
+            "tradeSourceName": "收入3",
+            "viewDate": "03-02"
+          },
+          {
+            "incomeFee": 5621.36,
+            "tradePlatform": "WECHAT",
+            "tradeSourceCode": "80037",
+            "tradeSourceName": "收入4",
+            "viewDate": "03-02"
+          },
+          {
+            "incomeFee": 20,
+            "tradePlatform": "WECHAT",
+            "tradeSourceCode": "80038",
+            "tradeSourceName": "收入5",
+            "viewDate": "03-02"
+          },
+          {
+            "incomeFee": 0,
+            "tradePlatform": "WECHAT",
+            "tradeSourceCode": "80039",
+            "tradeSourceName": "收入6",
+            "viewDate": "03-02"
+          },
+          {
+            "incomeFee": 806.39,
+            "tradePlatform": "WECHAT",
+            "tradeSourceCode": "80029",
+            "tradeSourceName": "收入7",
+            "viewDate": "03-02"
+          }
+        ],
+        "incomeFee": 19976.32,
+        "tradePlatform": "WECHAT",
+        "viewDate": "03-02"
+      }
+    ],
+    "03-03": [
+      {
+        "detailTradeSourceReportList": [
+          {
+            "incomeFee": 40315.47,
+            "tradePlatform": "ALIPAY",
+            "tradeSourceCode": "80024",
+            "tradeSourceName": "收入1",
+            "viewDate": "03-03"
+          },
+          {
+            "incomeFee": 34122.92,
+            "tradePlatform": "ALIPAY",
+            "tradeSourceCode": "80021",
+            "tradeSourceName": "收入2",
+            "viewDate": "03-03"
+          },
+          {
+            "incomeFee": 0,
+            "tradePlatform": "ALIPAY",
+            "tradeSourceCode": "80035",
+            "tradeSourceName": "收入3",
+            "viewDate": "03-03"
+          },
+          {
+            "incomeFee": 67899.55,
+            "tradePlatform": "ALIPAY",
+            "tradeSourceCode": "80037",
+            "tradeSourceName": "收入4",
+            "viewDate": "03-03"
+          },
+          {
+            "incomeFee": 30,
+            "tradePlatform": "ALIPAY",
+            "tradeSourceCode": "80038",
+            "tradeSourceName": "收入5",
+            "viewDate": "03-03"
+          },
+          {
+            "incomeFee": 0,
+            "tradePlatform": "ALIPAY",
+            "tradeSourceCode": "80039",
+            "tradeSourceName": "收入6",
+            "viewDate": "03-03"
+          }
+        ],
+        "incomeFee": 142367.94,
+        "tradePlatform": "ALIPAY",
+        "viewDate": "03-03"
+      },
+      {
+        "detailTradeSourceReportList": [
+          {
+            "incomeFee": 2281.18,
+            "tradePlatform": "WECHAT",
+            "tradeSourceCode": "80024",
+            "tradeSourceName": "收入1",
+            "viewDate": "03-03"
+          },
+          {
+            "incomeFee": 13769.91,
+            "tradePlatform": "WECHAT",
+            "tradeSourceCode": "80021",
+            "tradeSourceName": "收入2",
+            "viewDate": "03-03"
+          },
+          {
+            "incomeFee": 0,
+            "tradePlatform": "WECHAT",
+            "tradeSourceCode": "80035",
+            "tradeSourceName": "收入3",
+            "viewDate": "03-03"
+          },
+          {
+            "incomeFee": 7395.17,
+            "tradePlatform": "WECHAT",
+            "tradeSourceCode": "80037",
+            "tradeSourceName": "收入4",
+            "viewDate": "03-03"
+          },
+          {
+            "incomeFee": 23,
+            "tradePlatform": "WECHAT",
+            "tradeSourceCode": "80038",
+            "tradeSourceName": "收入5",
+            "viewDate": "03-03"
+          },
+          {
+            "incomeFee": 0,
+            "tradePlatform": "WECHAT",
+            "tradeSourceCode": "80039",
+            "tradeSourceName": "收入6",
+            "viewDate": "03-03"
+          },
+          {
+            "incomeFee": 777.39,
+            "tradePlatform": "WECHAT",
+            "tradeSourceCode": "80029",
+            "tradeSourceName": "收入7",
+            "viewDate": "03-03"
+          }
+        ],
+        "incomeFee": 24246.65,
+        "tradePlatform": "WECHAT",
+        "viewDate": "03-03"
+      }
+    ]
+  },
+  "errMsg": "查询成功",
+  "success": true
+}

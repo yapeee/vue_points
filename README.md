@@ -1,30 +1,11 @@
-# points
+# echarts较为复杂的数据展示
 
 > A Vue.js project
 
-## Build Setup
+## 简介
 
-``` bash
-# install dependencies
-npm install
+# 图表最近几日收入统计柱状图，其中包括两种收入方式，默认显示两种方式的总计，可选择一种方式进行切换。每日的收入包括多种收入，可以选择其中一种收入查看最近几日该收入的柱状图。
 
-# serve with hot reload at localhost:8080
-npm run dev
+## 亮点
 
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+# 通过选择框控制显示想要显示多种legend中的一个。
