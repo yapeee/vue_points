@@ -2,23 +2,20 @@
   <div>
     <div class="date-panel">
       <div class="date-list">
-        <van-tabs v-model="active">
-          <van-tab title="标签 1">内容 1</van-tab>
-          <van-tab title="标签 2">内容 2</van-tab>
-          <van-tab title="标签 3">内容 3</van-tab>
-          <van-tab title="标签 4">内容 4</van-tab>
+        <van-tabs v-model="active" @click="chooseDate">
+          <van-tab v-for="(item,index) in dateList"
+                   :key="item.dateStr1"
+                   :name="index"
+          >
+            <div slot="title" class="date-item" :class="item.dateStr === selectDate.dateStr ? 'active' : ''">
+              <div class="week">
+                {{item.dateStr1 === today ? '今日' : item.week}}
+                <span :class="item.state === 'yes'? 'hasNum' : ''">{{item.state === 'yes'? '有' : '无'}}</span>
+              </div>
+              <div class="date">{{item.dateStr}}</div>
+            </div>
+          </van-tab>
         </van-tabs>
-        <!--<van-tabs v-model="active" @click="chooseDate">-->
-          <!--<van-tab v-for="item in dateList" :key="item.dateStr1">-->
-            <!--<div slot="title" ref="title" class="date-item" :class="item.dateStr === selectDate.dateStr ? 'active' : ''">-->
-              <!--<div class="week">-->
-                <!--{{item.dateStr1 === today ? '今日' : item.week}}-->
-                <!--<span :class="item.state === 'yes'? 'hasNum' : ''">{{item.state === 'yes'? '有' : '无'}}</span>-->
-              <!--</div>-->
-              <!--<div class="date">{{item.dateStr}}</div>-->
-            <!--</div>-->
-          <!--</van-tab>-->
-        <!--</van-tabs>-->
       </div>
       <div class="calendar-btn"
            v-if="scheduleDaysForReg > 7"
@@ -28,22 +25,22 @@
         <div class="icon"><van-icon name="arrow-down" size="10"/></div>
       </div>
     </div>
-    <!--<van-action-sheet v-model="show" title="排班日历">-->
-      <!--<inline-calendar-->
-        <!--v-model="value"-->
-        <!--:start-date="today"-->
-        <!--:end-date="lastDay"-->
-        <!--:return-six-rows="false"-->
-        <!--:render-function="buildSlotFn"-->
-        <!--@on-change="chooseCalendarDay"-->
-      <!--&gt;</inline-calendar>-->
-    <!--</van-action-sheet>-->
+    <van-action-sheet v-model="show" title="排班日历">
+      <inline-calendar
+        v-model="value"
+        :start-date="today"
+        :end-date="lastDay"
+        :return-six-rows="false"
+        :render-function="buildSlotFn"
+        @on-change="chooseCalendarDay"
+      ></inline-calendar>
+    </van-action-sheet>
   </div>
 </template>
 
 <script>
 import { Tab, Tabs, Icon, ActionSheet } from 'vant'
-// import { InlineCalendar } from 'vux'
+import { InlineCalendar } from 'vux'
 import axios from 'axios'
 export default {
   name: 'DateSelect',
@@ -52,7 +49,7 @@ export default {
     [Tabs.name]: Tabs,
     [Icon.name]: Icon,
     [ActionSheet.name]: ActionSheet,
-    // InlineCalendar
+    InlineCalendar
   },
   props: {
   },

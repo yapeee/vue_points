@@ -8,12 +8,12 @@ Vue.use(Router)
 export default new Router({
   routes: [
     {
-      path: '/',
+      path: '/dataAnalyse',
       name: 'dataAnalyse',
       component: dataAnalyse
     },
     {
-      path: '/DateInfo',
+      path: '/',
       name: 'DateInfo',
       component: DateInfo
     }
