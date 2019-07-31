@@ -2,11 +2,12 @@
   <div>
     <div class="date-panel">
       <div class="date-list">
-        <van-tabs v-model="active" @click="chooseDate">
+        <van-tabs v-model="active" @click="chooseDate" swipeable>
           <van-tab v-for="(item,index) in dateList"
                    :key="item.dateStr1"
                    :name="index"
           >
+            <!--自定义样式-->
             <div slot="title" class="date-item" :class="item.dateStr === selectDate.dateStr ? 'active' : ''">
               <div class="week">
                 {{item.dateStr1 === today ? '今日' : item.week}}

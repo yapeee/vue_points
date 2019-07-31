@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import DateSelect from '../components/DateSelect'
+import DateSelect from '../components/DateSelectNew'
 import { Tab, Tabs } from 'vant'
 export default {
   name: 'DateInfo',
