@@ -20,3 +20,17 @@ teb栏+日历模式选择日期
 `pages/DateInfo.vue`
 `components/DateSelect.vue`(使用vux日历组件)
 `components/DateSelectNew.vue`(自定义日历组件)
+
+#### 3.select-tree-demo
+**简介**
+根据element提供的组件构建一个下拉选择树结构的下拉框。
+
+**亮点**
+可配置单选多选
+可配置懒加载
+提供自定节点插槽
+可配置树结构的父子节点是否关联
+
+**位置**
+`pages/Home.vue`
+`components/SelectTree.vue`
