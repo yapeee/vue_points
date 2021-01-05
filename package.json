@@ -14,7 +14,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "better-scroll": "^1.15.2",
     "echarts": "^4.1.0",
     "element-ui": "^2.6.1",
